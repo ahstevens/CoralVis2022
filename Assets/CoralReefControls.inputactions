@@ -1,0 +1,387 @@
+{
+    "name": "CoralReefControls",
+    "maps": [
+        {
+            "name": "Pie Menu",
+            "id": "a64a6bf8-817b-4c9d-b24f-f2de3ab48a1b",
+            "actions": [
+                {
+                    "name": "Show",
+                    "type": "Button",
+                    "id": "7ade8636-d700-45e3-a6b6-a7ea52bc5e56",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "de78840e-979d-4578-afac-d81eedd317eb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Navigate",
+                    "type": "Value",
+                    "id": "0c9aeb02-5671-46b4-954c-87bdcb2405f5",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0cbd1054-2398-4377-aee8-a6b2c2a3a779",
+                    "path": "<XRController>{RightHand}/thumbstickTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Show",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "13a3fa6c-50fc-4f12-a190-7c70e9813475",
+                    "path": "<ViveController>{RightHand}/trackpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Show",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "15e238ed-24c5-4c66-b57c-d4191b4a2be5",
+                    "path": "<ViveController>{RightHand}/trackpadClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "66389213-3bba-46b2-b925-762de6103a0a",
+                    "path": "<XRController>{RightHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "27030d28-69ad-4320-a413-70e67fa8ead8",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2db5c861-5ca3-42a1-922c-e0f36d367f9d",
+                    "path": "<ViveController>{RightHand}/trackpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b3d40a53-8697-4a93-8122-e78892437bdd",
+                    "path": "<XRController>{RightHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Measure",
+            "id": "d2744861-aaea-438f-a6c7-dd94d94ee59e",
+            "actions": [
+                {
+                    "name": "Measure",
+                    "type": "Button",
+                    "id": "feb5c38f-f12c-4ef3-9b29-2328abb30037",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Clear Measurements",
+                    "type": "Button",
+                    "id": "4549be1e-fbfc-44e2-909f-597dcb79c319",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0248f9e5-d7d5-4f8c-84aa-82521704ec4d",
+                    "path": "<ViveFocus3Controller>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Measure",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "38cab69e-29b7-41d1-970d-19c42202113a",
+                    "path": "<ViveController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Measure",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4f44b386-9e8a-4cc3-8b21-8440ba4c1805",
+                    "path": "<ViveController>{RightHand}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Clear Measurements",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "df15155c-19f7-4c0a-9aae-897798521b3b",
+                    "path": "<ViveFocus3Controller>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Clear Measurements",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Annotate",
+            "id": "7bd6953c-c7f6-4717-a695-bfb796cff125",
+            "actions": [
+                {
+                    "name": "Spray",
+                    "type": "Button",
+                    "id": "8a211e08-e66a-4f79-8cc7-89c5cf7b2914",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Change Color",
+                    "type": "Button",
+                    "id": "e8322c80-0ae1-457d-a52f-3f33054c69c3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Clear",
+                    "type": "Button",
+                    "id": "fbce21ea-a376-4802-97ab-54ee81c67785",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1c3f34b8-80a2-475c-a228-7dc6d3602360",
+                    "path": "<ViveController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spray",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "004e917b-1612-4899-b636-af0f3e33e60c",
+                    "path": "<ViveFocus3Controller>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spray",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e89439b7-0610-41ad-ad16-5fe1851d73bb",
+                    "path": "<ViveFocus3Controller>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Change Color",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b17fe07f-5afa-4825-834d-ad9d25dcd5d8",
+                    "path": "<ViveController>{RightHand}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Change Color",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1a44f7aa-f8e1-44a9-b26c-2573d6cd6133",
+                    "path": "<ViveFocus3Controller>/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Clear",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Flashlight",
+            "id": "af2d41b8-69d9-4fc2-8fa0-bbdbcc5bd097",
+            "actions": [
+                {
+                    "name": "Toggle",
+                    "type": "Button",
+                    "id": "c56eba64-8b67-4fc3-8e51-31cbe7ece11a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "697a92e0-116d-4a20-a194-2bd73e845668",
+                    "path": "<ViveFocus3Controller>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ec8ee008-d754-49f2-953e-95b94ab85cc2",
+                    "path": "<ViveController>/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Haptic",
+            "id": "c57c502b-c0a6-45cc-ba17-cf9e97c8c143",
+            "actions": [
+                {
+                    "name": "Right",
+                    "type": "PassThrough",
+                    "id": "35ba6274-83ed-40b7-8659-b376f19ffc14",
+                    "expectedControlType": "Haptic",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Left",
+                    "type": "PassThrough",
+                    "id": "6e5f069e-6d09-4a7c-9cf4-6318c7e39654",
+                    "expectedControlType": "Haptic",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "43bd7882-2983-4a83-9791-ea672e8aaab1",
+                    "path": "<ViveFocus3Controller>{RightHand}/haptic",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2bc82f51-5409-4457-97ee-98e3b0f26987",
+                    "path": "<ViveController>{RightHand}/haptic",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "26c24c56-4583-446e-b852-4c4558d36aa9",
+                    "path": "<ViveController>{LeftHand}/haptic",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eab0f884-e2c4-45b0-9dc8-648778282baa",
+                    "path": "<ViveFocus3Controller>{LeftHand}/haptic",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
